@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+   <title>Welcome</title>
+</head>
+<body>
+   <div class=" bg-gray-950 md:h-screen min-h-screen">
+
+      <section id="features"
+          class="relative px-10 py-5 md:py-20 md:px-10  border-t border-b border-neutral-900 bg-neutral-900/30 h-full sm:h-full flex flex-col justify-center items-center w-full">
+  
+  
+          <div class="relative mx-auto max-w-5xl text-center">
+              
+              <h2
+                  class="block w-full bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent text-xl sm:text-3xl mb-8 mx-5 md:m-3">
+                 Welcome to <span class="bg-amber-600 text-white rounded-lg px-3 py-0.5 md:py-0">M&N</span> Motors......
+              </h2>
+              <p
+                  class="mx-auto mt-10 my-2 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400">
+                  At M&N Motors, we believe in the power of possibilities. Your journey begins with us.
+              </p>
+          </div>
+  
+      <div class="flex flex-row space-x-12">
+         <div class="mt-8">
+            <button class="bg-gray-500 text-white px-5 py-2 rounded-full hover:bg-gray-800 object-center" onclick="document.location='AdminSI.php'">Admin </button>
+         </div> 
+         <div class="my-8">
+            <button class="bg-gray-500 text-white px-7 py-2 rounded-full hover:bg-amber-600 object-center" onclick="document.location='Sign In.php'">User </button>
+         </div>
+      </div>
+         
+          <div class="absolute bottom-0 left-0 z-0 h-1/3 w-full sm:h-1/3 border-b"
+              style="background-image: linear-gradient(to right top, rgba(79, 70, 229, 0.2) 0%, transparent 50%, transparent 100%); border-color: rgba(92, 79, 240, 0.2);">
+          </div>
+          <div class="absolute bottom-0 right-0 z-0 h-1/3 w-full"
+              style="background-image: linear-gradient(to left top, rgba(220, 111, 38, 0.489) 0%, transparent 50%, transparent 100%); border-color: rgba(92, 79, 240, 0.2);">
+          </div>
+  
+      </section>
+
+  </div>
+</body>
+</html>
